@@ -31,17 +31,22 @@ Proyek ini dikembangkan sebagai tugas akhir mata kuliah **Pengolahan Citra Digit
 
 ```text
 Gestura--Terminal-Based-Sign-Language-Translator-for-ASL/
-├── dataset_alfabet/          # Dataset gambar (A-I, K-Y) dan video (J, Z)
-├── dataset_vocabulary/       # Dataset video frasa kosakata (Tahap 2)
-├── models/                   # File model terlatih (.h5 / .pkl)
-├── preprocessing_utils.py    # Fungsi ekstraksi landmarks & normalisasi geometris
-├── train_alphabet.py         # Skrip pelatihan model MLP untuk alfabet A-Z
-├── main.py                   # Aplikasi utama berbasis terminal (Live Detection & TTS)
-├── requirements.txt          # Daftar pustaka Python yang dibutuhkan
-├── LICENSE                   # Lisensi MIT
-└── README.md                 # Dokumentasi proyek
+├── data_training/
+│   ├── asl_alphabets/        # Dataset gambar (A-I, K-Y) dan video (J, Z)
+│   └── asl_vocabulary/       # Dataset video frasa kosakata (Tahap 2)
+├── documents/
+│   ├── gestura_SRS.md        # Dokumen spesifikasi kebutuhan sistem utama
+│   └── pre-processing_SRS.md # Dokumen spesifikasi teknis modul pre-processing
+├── src/
+│   ├── preprocessing_utils.py # Fungsi ekstraksi landmarks & normalisasi geometris
+│   ├── extract_dataset.py     # Skrip pembuatan dataset CSV dari folder data_training
+│   ├── train_alphabet.py      # Skrip pelatihan model MLP untuk alfabet A-Z
+│   └── main.py                # Aplikasi utama berbasis terminal (Live Detection & TTS)
+├── models/                    # Direktori penyimpanan model terlatih (.h5 / .pkl)
+├── requirements.txt           # Daftar pustaka Python yang dibutuhkan
+├── LICENSE                    # Lisensi MIT
+└── README.md                  # Dokumentasi utama proyek
 ```
-
 ---
 
 ## Cara Instalasi & Menjalankan (Clone)
