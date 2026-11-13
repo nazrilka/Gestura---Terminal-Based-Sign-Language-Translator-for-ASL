@@ -1,0 +1,1 @@
+# Gestura---Terminal-Based-Sign-Language-Translator-for-ASL
