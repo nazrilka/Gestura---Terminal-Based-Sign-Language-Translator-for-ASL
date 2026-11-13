@@ -56,7 +56,7 @@ Ikuti langkah-langkah berikut untuk menyalin (*clone*) dan menjalankan proyek in
 ### 1. Clone Repositori
 Buka terminal atau *Command Prompt*, lalu jalankan perintah berikut:
 ```bash
-git clone https://github.com
+git clone https://github.com/nazrilka/Gestura---Terminal-Based-Sign-Language-Translator-for-ASL.git
 ```
 
 ### 2. Masuk ke Direktori Proyek
